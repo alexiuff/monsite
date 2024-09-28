@@ -1,0 +1,53 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Bleu ciel très clair pour le fond */
+}
+
+header {
+    background-color: #81d4fa; /* Bleu ciel plus foncé pour l'en-tête */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #4fc3f7; /* Bleu ciel moyen pour le menu de navigation */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #29b6f6; /* Bleu ciel plus foncé au survol */
+    border-radius: 4px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #81d4fa; /* Même bleu ciel que l'en-tête pour le pied de page */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
