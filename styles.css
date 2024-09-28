@@ -47,7 +47,10 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative;
+    position: fixed;
     width: 100%;
     bottom: 0;
+}
+body {
+    padding-bottom: 100px; /* Ajustez cette valeur selon la hauteur de votre pied de page */
 }
